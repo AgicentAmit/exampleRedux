@@ -11,6 +11,7 @@ const Favorites = () => {
   const handleRemoveFavorite = movie => {
     removeFromFavorites(movie);
   };
+
   return (
     <View style={{flex: 1, marginTop: 44, paddingHorizontal: 20}}>
       <Text style={{fontSize: 22}}>Favorites</Text>

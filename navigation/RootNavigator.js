@@ -8,6 +8,7 @@ import Favorites from '../screens/Favorites';
 const Tab = createBottomTabNavigator();
 const tabBarOptions = {
   showLabel: false,
+  headerShown: false,
   activeTintColor: '#9381ff',
   style: {
     height: '10%',
